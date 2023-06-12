@@ -42,9 +42,11 @@ ul {
   margin-left: 10px;
   display: inline;
 }
-.weather-app {
+.weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
+}
+.weather-app {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
