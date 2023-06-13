@@ -13,7 +13,6 @@ h1 {
   margin-top: 20px;
   text-size-adjust: 100%;
 }
-
 ul {
   box-sizing: border-box;
   color: rgb(135, 135, 135);
@@ -32,8 +31,11 @@ ul {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 0px;
+}
+li::first-letter {
   text-transform: capitalize;
 }
+
 .units {
   top: -25px;
   display: inline;
