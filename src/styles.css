@@ -1,17 +1,13 @@
 h1 {
   font-size: 38px;
-  font-weight: 700;
+  font-weight: 500;
   height: 96px;
-  line-height: 48px;
-  margin-block-end: 10px;
-  margin-block-start: 20px;
-  margin-bottom: 0px;
-  margin-inline-end: 0px;
-  margin-inline-start: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 20px;
+  line-height: 20px;
+  margin-top: 50px;
   text-size-adjust: 100%;
+  margin-bottom: -32px;
+  margin-block-start: 20px;
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
 }
 ul {
   box-sizing: border-box;
@@ -31,6 +27,7 @@ ul {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 0px;
+  top: -42px;
 }
 li::first-letter {
   text-transform: capitalize;
@@ -62,9 +59,11 @@ li::first-letter {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 }
 .overview {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 .weather-temperature img {
   margin-right: 5px;
