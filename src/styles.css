@@ -37,6 +37,7 @@ li::first-letter {
   top: -25px;
   display: inline;
   position: relative;
+  text-decoration: none;
 }
 .weather-temperature strong {
   color: #000000;
@@ -74,6 +75,15 @@ li::first-letter {
   vertical-align: top;
   display: inline-block;
 }
-small {
-  margin-block-start: 20px;
+.weather-temperature .active {
+  color: #000000;
+  cursor: default;
+  text-decoration: none;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.weather-temperature .offline {
+  text-decoration: none;
 }
